@@ -5,16 +5,16 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="page">
-    <div class="theory-container"><img class="theory-img" src="./eisenhower-matrix.jpg"><a class="theory-container__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></div>
-    <div class="checklist-form">
-      <p id="add-elem-section">
+    <header class="theory-container"><img class="theory-img" src="./eisenhower-matrix.jpg"><a class="theory-container__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></header>
+    <main class="checklist-form">
+      <section id="add-elem-section">
         <label class="label-add-item" for="add-task">Add Item</label>
         <div class="add-task-wrapper">
           <input id="add-task"class="add-item-input-form-style add-item-input-form-style-full" type="text">
           <button class="add-task-btn">Add</button>
         </div>
-      </p>
-      <h3 class="incomplete-tasks-title task-title">Todo</h3>
+      </section>
+      <h1 class="incomplete-tasks-title task-title">Todo</h1>
       <ul id="incomplete-tasks">
         <li class="task-checkbox">
           <input type="checkbox" class="checkbox-task-list"><label class="checkbox-label">Pay Bills</label>
@@ -32,7 +32,7 @@
           </button>
         </li>
       </ul>
-      <h3 class="task-title">Completed</h3>
+      <h2 class="task-title">Completed</h2>
       <ul id="completed-tasks">
         <li class="task-checkbox">
           <input type="checkbox" class="checkbox-task-list" checked><label class="checkbox-label checkbox-label-completed">See the Doctor</label>
@@ -43,7 +43,7 @@
           </button>
         </li>
       </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
