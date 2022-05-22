@@ -78,7 +78,7 @@ button {
 .add-task-btn:hover {
   color: #3a3a3a;
 }
-/* Heading */
+/* Heading*/
 .checklist-form__task-title,
 .add-elem-section__label-add-item[for="add-task"] {
   color: #333;
