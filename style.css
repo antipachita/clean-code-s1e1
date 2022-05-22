@@ -5,24 +5,24 @@
   font-family: Lato, sans-serif;
 }
 
-.theory-container {
+.header-container {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.theory-img {
+.header-container__img {
   width: 100%;
 }
 
-.theory-container .more_inf {
+.header-container .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .theory-container { 
+  .header-container { 
     text-align: center;
   }
 
@@ -34,9 +34,9 @@
   margin: 0 auto 0;
 }
 
-.checkbox-label,
-.add-item-input-form-style,
-.input-add-style {
+.order__checkbox-label,
+.add-task-wrapper__add-item-input-form-style,
+.order__input-add-style {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -61,8 +61,8 @@ button {
   outline: none;
 }
 
-.edit-task-btn,
-.delete-tusk,
+.order__edit-task-btn,
+.order__delete-tusk,
 .add-task-btn {
   background: none;
   border: 0px;
@@ -73,14 +73,14 @@ button {
   cursor: pointer;
 }
 
-.edit-task-btn:hover,
-.delete-tusk:hover,
+.order__edit-task-btn:hover,
+.order__delete-tusk:hover,
 .add-task-btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
-.task-title,
-.label-add-item[for="add-task"] {
+.checklist-form__task-title,
+.add-elem-section__label-add-item[for="add-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -90,8 +90,8 @@ button {
   text-transform: uppercase;
 }
 
-.add-item-input-form-style,
-.input-add-style {
+.add-task-wrapper__add-item-input-form-style,
+.order__input-add-style {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -104,20 +104,20 @@ button {
   color: #888;
 }
 
-.add-item-input-form-style,
-.input-add-style {
+.add-task-wrapper__add-item-input-form-style,
+.order__input-add-style {
   color: #333;
 }
 /* New Task */
-.label-add-item[for="add-task"] {
+.add-elem-section__label-add-item[for="add-task"] {
   display: block;
   margin: 0 0 20px;
 }
-.add-item-input-form-style-full {
+.add-task-wrapper__add-item-input-form-style-full {
   width: 318px;
 }
 /* Task list */
-.task-checkbox {
+.order__task-checkbox {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -126,48 +126,48 @@ button {
   align-items: center;
 }
 
-.checkbox-task-list {
+.order__checkbox-task-list {
   vertical-align: middle;
   margin: 0 10px;
 }
 
-.checkbox-label {
+.order__checkbox-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.input-add-style {
+.order__input-add-style {
   width: 226px;
   vertical-align: middle;
 }
 
-.delete-img {
+.order__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
   vertical-align: middle;
 }
 
-.delete-img:hover {
+.order__delete-img:hover {
   transform: rotateZ(0);
 }
 /* Completed */
-.checkbox-label-completed {
+.order__checkbox-label-completed {
   text-decoration: line-through;
   color: #888;
 }
 /* Edit Task */
-.input-add-style{
+.order__input-add-style{
   display: none;
 }
 
-.input-add-style-edit {
+.order__input-add-style-edit {
   display: inline-block;
   width: 224px;
 }
 
-.edit-checkbox-label {
+.order__edit-checkbox-label {
   display: none;
 }

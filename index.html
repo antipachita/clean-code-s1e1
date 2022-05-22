@@ -5,41 +5,41 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="page">
-    <header class="theory-container"><img class="theory-img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix table"><a class="theory-container__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></header>
+    <header class="header-container"><img class="header-container__img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix table"><a class="header-container__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></header>
     <main class="checklist-form">
       <section id="add-elem-section">
-        <label class="label-add-item" for="add-task">Add Item</label>
+        <label class="add-elem-section__label-add-item" for="add-task">Add Item</label>
         <div class="add-task-wrapper">
-          <input id="add-task"class="add-item-input-form-style add-item-input-form-style-full" type="text">
+          <input id="add-task"class="add-task-wrapper__add-item-input-form-style add-task-wrapper__add-item-input-form-style-full" type="text">
           <button class="add-task-btn">Add</button>
         </div>
       </section>
-      <h1 class="incomplete-tasks-title task-title">Todo</h1>
-      <ul id="incomplete-tasks">
-        <li class="task-checkbox">
-          <input type="checkbox" class="checkbox-task-list"><label class="checkbox-label">Pay Bills</label>
-          <input type="text" class=" input-add-style">
-          <button class="edit-task-btn">Edit</button>
-          <button class="delete-tusk">
-            <img class="delete-img" src="./remove.svg" alt="icon for remove task">
+      <h1 class="incomplete-tasks-title checklist-form__task-title">Todo</h1>
+      <ul id="incomplete-tasks" class="order">
+        <li class="order__task-checkbox">
+          <input type="checkbox" class="order__checkbox-task-list"><label class="order__checkbox-label">Pay Bills</label>
+          <input type="text" class="order__input-add-style">
+          <button class="order__edit-task-btn">Edit</button>
+          <button class="order__delete-tusk">
+            <img class="order__delete-img" src="./remove.svg" alt="icon for remove task">
           </button>
         </li>
-        <li class="edit-mode task-checkbox">
-          <input type="checkbox" class="checkbox-task-list"><label class="checkbox-label edit-checkbox-label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="input-add-style input-add-style-edit">
-          <button class="edit-task-btn">Save</button><button class="delete-tusk">
-            <img src="./remove.svg" class="delete-img" alt="icon for remove task">
+        <li class="order__task-checkbox__edit-mode order__task-checkbox">
+          <input type="checkbox" class="order__checkbox-task-list"><label class="order__checkbox-label order__edit-checkbox-label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="order__input-add-style order__input-add-style-edit">
+          <button class="order__edit-task-btn">Save</button><button class="order__delete-tusk">
+            <img src="./remove.svg" class="order__delete-img" alt="icon for remove task">
           </button>
         </li>
       </ul>
-      <h2 class="task-title">Completed</h2>
-      <ul id="completed-tasks">
-        <li class="task-checkbox">
-          <input type="checkbox" class="checkbox-task-list" checked><label class="checkbox-label checkbox-label-completed">See the Doctor</label>
-          <input type="text" class=" input-add-style">
-          <button class="edit-task-btn">Edit</button>
-          <button class="delete-tusk">
-            <img src="./remove.svg" class="delete-img" alt="icon for remove task">
+      <h2 class="checklist-form__task-title">Completed</h2>
+      <ul id="completed-tasks" class="order">
+        <li class="order__task-checkbox">
+          <input type="checkbox" class="order__checkbox-task-list" checked><label class="order__checkbox-label order__checkbox-label-completed">See the Doctor</label>
+          <input type="text" class="order__input-add-style">
+          <button class="order__edit-task-btn">Edit</button>
+          <button class="order__delete-tusk">
+            <img src="./remove.svg" class="order__delete-img" alt="icon for remove task">
           </button>
         </li>
       </ul>
