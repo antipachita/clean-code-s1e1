@@ -39,7 +39,7 @@
 .input-add-style {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-task-wrapper {
@@ -47,16 +47,16 @@
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input,button{
-  outline:none;
+  outline: none;
 }
 
 .edit-task-btn,
@@ -158,12 +158,12 @@ input,button{
 }
 /* Edit Task */
 .input-add-style{
-  display:none
+  display: none;
 }
 
 .input-add-style-edit {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-checkbox-label {
