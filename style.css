@@ -163,9 +163,9 @@ input,button{
 
 .input-add-style-edit {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-checkbox-label {
-  display:none;
+  display: none;
 }
